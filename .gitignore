@@ -36,7 +36,7 @@ run
 initialmodels/
 
 # Simulations
-run_NR/
+tests/
 data/
 REPORT
 launch.sh

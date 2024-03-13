@@ -22,7 +22,7 @@ path = ../sphynx/
 #path to simulation directory
 #in this way we can have different parameters for different simulations
 #and initial datas.
-pathsim = ../run_NR/
+pathsim = ../run/
 executable = run
 
 comp = $(strip $(compiler))

@@ -100,7 +100,7 @@ MODULE parameters
   LOGICAL,PARAMETER::conserv =.true.     !Tracking of conservation laws
   LOGICAL,PARAMETER::timesave =.true.    !Tracking of timesteps
   LOGICAL,PARAMETER::balsara = .false.    !Balsara corrections
-  LOGICAL,PARAMETER::switches =.false.    !AV switches
+  LOGICAL,PARAMETER::switches =.true.    !AV switches
   LOGICAL,PARAMETER::gradh = .true.       !Includes grad-h terms
   LOGICAL,PARAMETER::conductionini= .false.!Thermal conduction (not in connection with AV)
   LOGICAL,PARAMETER::std_VE= .false.       ! use xmass=mass(i) or new  xmass=mass(i)/ro0(i)

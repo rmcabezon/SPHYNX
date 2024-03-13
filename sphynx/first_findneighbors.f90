@@ -101,7 +101,7 @@ global:   do i = npini,npend
                    j=nnod(nodo)
                    d05=sqrt(d1*d1+d2*d2+d3*d3)
                    v1=d05/h(i)
-                   !v2=d05/h(j)
+                   v2=d05/h(j)
                    if(v1.le.2.d0) then
 !                   if(v1.le.2.d0.or.v2.le.2.d0) then
                       nvi(i)=nvi(i)+1

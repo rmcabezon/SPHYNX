@@ -93,9 +93,10 @@ global:   do i = npini,npend
                    if(j.eq.i) goto 52  !Exclude self-particle for list of neighbors
                    d05=sqrt(d1*d1+d2*d2+d3*d3)
                    v1=d05/h(i)
+                   v2=d05/h(j)
 
                    if(v1.gt.2.d0) then
-                   !if(v1.gt.2.d0 .and. v2.gt.2.d0) then
+!                   if(v1.gt.2.d0 .and. v2.gt.2.d0) then
                       goto 52
                    else
                       if(nvi(i).lt.int(nvmax)) then
