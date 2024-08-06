@@ -40,7 +40,7 @@ MODULE parameters
   INTEGER,PARAMETER::n5=5*nmax
   INTEGER,PARAMETER::n7=7*nmax
 
-  INTEGER,PARAMETER::nodes=4         !Amount of nodes.
+  INTEGER,PARAMETER::nodes=8         !Amount of nodes.
   INTEGER,PARAMETER::dim = 3         !Spatial imensions
   INTEGER,PARAMETER::nnl = 480       !Iterations
   INTEGER,PARAMETER::iodelay = 120   !Steps until output
